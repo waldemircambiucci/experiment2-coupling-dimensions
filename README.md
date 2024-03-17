@@ -53,6 +53,8 @@ num_cnots = 15
 
 coupling_rate = calculate_coupling_rate(num_qubits, depth, num_cnots)
 print("Average coupling rate:", coupling_rate)
+
+Average coupling rate: 1.5
 ```
 
 In this example, we assume a quantum circuit with 5 qubits, a depth of 10, and 15 CNOT gates. Adjustments can be made to this calculation depending on specific requirements or considerations in your application.
