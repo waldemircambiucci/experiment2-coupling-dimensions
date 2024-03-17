@@ -20,6 +20,7 @@ In the context of quantum circuits, coupling dimensions relate to the interactio
 - Impact of Coupling on Quantum Circuit Partitioning: The coupling between qubits influences how quantum circuits are partitioned, particularly in the context of distributing multi-qubit gates across different parts of the quantum processor or in distributed scenarios with multi-QPUs. Weak coupling enables more flexible partitioning strategies, allowing multi-qubit gates to be efficiently distributed across qubits. Conversely, strong coupling may necessitate specific arrangements to ensure effective gate execution and minimize errors during computation.
 
 **Calculating Average Coupling Rate**
+
 Calculating the coupling rate for a quantum circuit involves assessing how frequently two qubits interact with each other, particularly through CNOT gates, relative to the size and depth of the circuit. Here's a basic method to calculate the coupling rate:
 
 1. **Count the Number of CNOT Gates**: First, count the total number of CNOT gates (or any two-qubit gates) in the circuit. Let's denote this count as `num_cnots`.
